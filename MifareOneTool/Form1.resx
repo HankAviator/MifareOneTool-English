@@ -208,7 +208,7 @@
     <value>0</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>device control</value>
+    <value>Device control</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -292,7 +292,7 @@
     <value>1</value>
   </data>
   <data name="buttonScanCard.Text" xml:space="preserve">
-    <value>Manual scanning</value>
+    <value>Manual scan</value>
   </data>
   <data name="buttonScanCard.ToolTip" xml:space="preserve">
     <value>Scan for a valid card.</value>
@@ -388,10 +388,10 @@
     <value>0</value>
   </data>
   <data name="buttonListDev.Text" xml:space="preserve">
-    <value>Testing Equipment</value>
+    <value>Scan devices</value>
   </data>
   <data name="buttonListDev.ToolTip" xml:space="preserve">
-    <value>Scan a connected NFC device
+    <value>Scan for a connected NFC device
 (currently supports PN532, ACR122U)</value>
   </data>
   <data name="&gt;&gt;buttonListDev.Name" xml:space="preserve">
@@ -431,7 +431,7 @@
     <value>11</value>
   </data>
   <data name="buttonCLI.Text" xml:space="preserve">
-    <value>Manual CLI</value>
+    <value>CLI</value>
   </data>
   <data name="buttonCLI.ToolTip" xml:space="preserve">
     <value>Open the NFC command line for advanced operations.</value>
@@ -515,7 +515,7 @@
     <value>TextBeforeImage</value>
   </data>
   <data name="buttonMfRead.ToolTip" xml:space="preserve">
-    <value>Read normal M1 cards (may need to load the key file)</value>
+    <value>Read generic M1 cards (may need to load the key file)</value>
   </data>
   <data name="&gt;&gt;buttonMfRead.Name" xml:space="preserve">
     <value>buttonMfRead</value>
@@ -566,7 +566,7 @@
     <value>4</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Ordinary card operation</value>
+    <value>Generic card operation</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
@@ -728,7 +728,7 @@
     <value>TextBeforeImage</value>
   </data>
   <data name="buttonSelectKey.ToolTip" xml:space="preserve">
-    <value>Load the MFD file with the correct read and write card key and the correct control bits.</value>
+    <value>Load the MFD file with the correct read and write key, and the correct control bits.</value>
   </data>
   <data name="&gt;&gt;buttonSelectKey.Name" xml:space="preserve">
     <value>buttonSelectKey</value>
@@ -836,7 +836,7 @@
     <value>TextBeforeImage</value>
   </data>
   <data name="buttonMfWrite.ToolTip" xml:space="preserve">
-    <value>Write a normal M1 card (may need to load the key file)</value>
+    <value>Write a generic M1 card (may need to load the key file)</value>
   </data>
   <data name="&gt;&gt;buttonMfWrite.Name" xml:space="preserve">
     <value>buttonMfWrite</value>
@@ -890,7 +890,7 @@
     <value>TextBeforeImage</value>
   </data>
   <data name="buttonMfFormat.ToolTip" xml:space="preserve">
-    <value>Format normal M1 card (must load key file)</value>
+    <value>Format generic M1 card (must load key file)</value>
   </data>
   <data name="&gt;&gt;buttonMfFormat.Name" xml:space="preserve">
     <value>buttonMfFormat</value>
@@ -974,7 +974,7 @@
     <value>Read UID</value>
   </data>
   <data name="buttonBmfRead.ToolTip" xml:space="preserve">
-    <value>Read the UID card.</value>
+    <value>Read a UID card.</value>
   </data>
   <data name="&gt;&gt;buttonBmfRead.Name" xml:space="preserve">
     <value>buttonBmfRead</value>
@@ -1013,10 +1013,10 @@
     <value>8</value>
   </data>
   <data name="buttonMfoc.Text" xml:space="preserve">
-    <value>MFOC reading</value>
+    <value>Read MFOC</value>
   </data>
   <data name="buttonMfoc.ToolTip" xml:space="preserve">
-    <value>Nested cracking on semi-encrypted cards.
+    <value>Nested crack on semi-encrypted cards.
 Press Ctrl and click this button to add a known key.</value>
   </data>
   <data name="&gt;&gt;buttonMfoc.Name" xml:space="preserve">
@@ -1056,10 +1056,10 @@ Press Ctrl and click this button to add a known key.</value>
     <value>5</value>
   </data>
   <data name="buttonUidWrite.Text" xml:space="preserve">
-    <value>UID write number</value>
+    <value>Write UID card number</value>
   </data>
   <data name="buttonUidWrite.ToolTip" xml:space="preserve">
-    <value>Write the top card number to the UID card, and the manufacturer sets it to Fudan.</value>
+    <value>Write the top card number to the UID card. Manufacturer is set to Fudan.</value>
   </data>
   <data name="&gt;&gt;buttonUidWrite.Name" xml:space="preserve">
     <value>buttonUidWrite</value>
@@ -1098,11 +1098,11 @@ Press Ctrl and click this button to add a known key.</value>
     <value>7</value>
   </data>
   <data name="buttonUidFormat.Text" xml:space="preserve">
-    <value>UID full grid</value>
+    <value>Format UID</value>
   </data>
   <data name="buttonUidFormat.ToolTip" xml:space="preserve">
-    <value>Empty the card and reinitialize it.
-It can be used for first aid in situations where ACbit damage/KEY is completely changed.</value>
+    <value>Clear the card and initialize it.
+It can be used for emergency rescue for ACbit damage/all keys got changed.</value>
   </data>
   <data name="&gt;&gt;buttonUidFormat.Name" xml:space="preserve">
     <value>buttonUidFormat</value>
@@ -1147,7 +1147,7 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>ImageBeforeText</value>
   </data>
   <data name="buttonUidReset.ToolTip" xml:space="preserve">
-    <value>Reset the UID card 0 block, the UID is random, and the manufacturer number is Fudan.</value>
+    <value>Reset the UID card 0 block, the UID is random, the manufacturer number is Fudan.</value>
   </data>
   <data name="&gt;&gt;buttonUidReset.Name" xml:space="preserve">
     <value>buttonUidReset</value>
@@ -1516,10 +1516,10 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>3</value>
   </data>
   <data name="buttonMfcuk.Text" xml:space="preserve">
-    <value>Fully encrypted blasting</value>
+    <value>Full encrypted card brute-force crack</value>
   </data>
   <data name="buttonMfcuk.ToolTip" xml:space="preserve">
-    <value>Implement the Darkside tool on the card (not necessarily successful)</value>
+    <value>Run Darkside tool on the card (may not work)</value>
   </data>
   <data name="&gt;&gt;buttonMfcuk.Name" xml:space="preserve">
     <value>buttonMfcuk</value>
@@ -1681,10 +1681,10 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>5</value>
   </data>
   <data name="buttonLockUfuid.Text" xml:space="preserve">
-    <value>Lock Ufuid</value>
+    <value>Lock UFUID</value>
   </data>
   <data name="buttonLockUfuid.ToolTip" xml:space="preserve">
-    <value>Locked UFUID card 0 block data (testing)</value>
+    <value>Lock UFUID card 0 block data (beta)</value>
   </data>
   <data name="&gt;&gt;buttonLockUfuid.Name" xml:space="preserve">
     <value>buttonLockUfuid</value>
@@ -1807,10 +1807,10 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>15</value>
   </data>
   <data name="buttonnKeysMfoc.Text" xml:space="preserve">
-    <value>Know n</value>
+    <value>Known n keys</value>
   </data>
   <data name="buttonnKeysMfoc.ToolTip" xml:space="preserve">
-    <value>Enter the known key for Nested cracking.</value>
+    <value>Enter known keys for Nested cracking.</value>
   </data>
   <data name="&gt;&gt;buttonnKeysMfoc.Name" xml:space="preserve">
     <value>buttonnKeysMfoc</value>
@@ -2137,7 +2137,7 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>0</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
-    <value>Advanced mode of operation</value>
+    <value>Advanced mode</value>
   </data>
   <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
     <value>tabPage1</value>
@@ -2910,7 +2910,7 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>12</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Please put new card</value>
+    <value>Please place target card</value>
   </data>
   <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -3210,8 +3210,8 @@ It can be used for first aid in situations where ACbit damage/KEY is completely 
     <value>13</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Please put
-Original card</value>
+    <value>Place your
+source card</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -3250,7 +3250,7 @@ Original card</value>
     <value>0</value>
   </data>
   <data name="buttonEscan.Text" xml:space="preserve">
-    <value>Detect connection</value>
+    <value>Test connection</value>
   </data>
   <data name="&gt;&gt;buttonEscan.Name" xml:space="preserve">
     <value>buttonEscan</value>
@@ -3415,10 +3415,11 @@ Original card</value>
     <value>13</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>tool only supports SAK=08/18/28
-Card copy. SAK28 has no one key to decrypt.
-To copy S70 cards, please in the advanced world
-Uncheck "Data Write Protection" on the surface.</value>
+    <value>This tool only supports copying card with 
+SAK=08/18/28
+SAK28 has no "crack with one known key".
+To copy S70 cards, go to Advanced tab,
+uncheck "Data Write Protection".</value>
   </data>
   <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -3472,7 +3473,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>0</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>[2]Read the original card</value>
+    <value>[2]Read source card</value>
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
@@ -3613,7 +3614,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>3</value>
   </data>
   <data name="buttonEReadUID.Text" xml:space="preserve">
-    <value>Read back from UID card</value>
+    <value>Read from UID card</value>
   </data>
   <data name="&gt;&gt;buttonEReadUID.Name" xml:space="preserve">
     <value>buttonEReadUID</value>
@@ -3652,7 +3653,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>1</value>
   </data>
   <data name="buttonEMfRead.Text" xml:space="preserve">
-    <value>Known key reading</value>
+    <value>Read with saved keys</value>
   </data>
   <data name="&gt;&gt;buttonEMfRead.Name" xml:space="preserve">
     <value>buttonEMfRead</value>
@@ -3691,7 +3692,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>2</value>
   </data>
   <data name="buttonECmfoc.Text" xml:space="preserve">
-    <value>Know a secret crack</value>
+    <value>Crack with one known key</value>
   </data>
   <data name="&gt;&gt;buttonECmfoc.Name" xml:space="preserve">
     <value>buttonECmfoc</value>
@@ -3730,7 +3731,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>0</value>
   </data>
   <data name="buttonEMfoc.Text" xml:space="preserve">
-    <value>One-click solution</value>
+    <value>One-click crack</value>
   </data>
   <data name="&gt;&gt;buttonEMfoc.Name" xml:space="preserve">
     <value>buttonEMfoc</value>
@@ -3952,7 +3953,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>10</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Try to see if it succeeds</value>
+    <value>See if it succeeds</value>
   </data>
   <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -4045,7 +4046,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>3</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>[3] write new card</value>
+    <value>[3] Write new card</value>
   </data>
   <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
     <value>groupBox7</value>
@@ -4174,7 +4175,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>2</value>
   </data>
   <data name="buttonEUIDWrite.Text" xml:space="preserve">
-    <value>Write (UF) UID card</value>
+    <value>Write (UF)UID card</value>
   </data>
   <data name="&gt;&gt;buttonEUIDWrite.Name" xml:space="preserve">
     <value>buttonEUIDWrite</value>
@@ -4294,7 +4295,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>0</value>
   </data>
   <data name="buttonEMfWrite.Text" xml:space="preserve">
-    <value>Write ordinary card</value>
+    <value>Write generic card</value>
   </data>
   <data name="&gt;&gt;buttonEMfWrite.Name" xml:space="preserve">
     <value>buttonEMfWrite</value>
@@ -4750,7 +4751,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>6</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>UID/UFUID card operation</value>
+    <value>UID/UFUID card</value>
   </data>
   <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
     <value>groupBox8</value>
@@ -4933,7 +4934,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>11</value>
   </data>
   <data name="ShowUID.Text" xml:space="preserve">
-    <value>Display UID</value>
+    <value>Show UID</value>
   </data>
   <data name="&gt;&gt;ShowUID.Name" xml:space="preserve">
     <value>ShowUID</value>
@@ -4978,7 +4979,7 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>14</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>C/FUID card operation</value>
+    <value>C/FUID card</value>
   </data>
   <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
     <value>groupBox9</value>
@@ -5059,8 +5060,8 @@ Uncheck "Data Write Protection" on the surface.</value>
     <value>5</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>The card is read
-Same as ordinary card</value>
+    <value>Use "Read M1"
+to read this type of cards</value>
   </data>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -5111,7 +5112,7 @@ Same as ordinary card</value>
     <value>0</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Card operation related</value>
+    <value>Card operation</value>
   </data>
   <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
     <value>groupBox6</value>
@@ -5663,7 +5664,7 @@ Same as ordinary card</value>
     <value>15</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Optimization settings</value>
+    <value>Optimization</value>
   </data>
   <data name="&gt;&gt;groupBox14.Name" xml:space="preserve">
     <value>groupBox14</value>
@@ -5780,7 +5781,7 @@ Same as ordinary card</value>
     <value>1</value>
   </data>
   <data name="checkBoxNewScan.Text" xml:space="preserve">
-    <value>Reduce device delay</value>
+    <value>Reduce device discovery delay</value>
   </data>
   <data name="&gt;&gt;checkBoxNewScan.Name" xml:space="preserve">
     <value>checkBoxNewScan</value>
@@ -5816,7 +5817,8 @@ Same as ordinary card</value>
     <value>4</value>
   </data>
   <data name="checkBoxMultiDev.Text" xml:space="preserve">
-    <value>Multi-instance operation mode will disable multi-open detection. Please specify the device by yourself.</value>
+    <value>Multi-instance operation mode 
+  Multi-instance detection will be disabled. Please specify the device manually.</value>
   </data>
   <data name="&gt;&gt;checkBoxMultiDev.Name" xml:space="preserve">
     <value>checkBoxMultiDev</value>
@@ -5849,7 +5851,7 @@ Same as ordinary card</value>
     <value>3</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Designated device</value>
+    <value>Specify device</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -5975,7 +5977,7 @@ Same as ordinary card</value>
     <value>0</value>
   </data>
   <data name="checkBoxDefIsAdv.Text" xml:space="preserve">
-    <value>Automatically go to advanced mode of operation</value>
+    <value>Use advanced mode by default</value>
   </data>
   <data name="&gt;&gt;checkBoxDefIsAdv.Name" xml:space="preserve">
     <value>checkBoxDefIsAdv</value>
